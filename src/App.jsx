@@ -2,7 +2,7 @@ import { useState, createContext } from 'react'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Home from "./pages/Home"
 import ShoppingCart from './pages/ShoppingCart'
-
+import './App.css'
 
 const defaultProduct = {
   products: [

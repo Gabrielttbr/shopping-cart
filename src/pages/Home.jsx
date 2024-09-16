@@ -1,6 +1,7 @@
 import {  useEffect, useState } from "react"
 import useShoppingCart from "../hooks/UseShoppingCart"
 import { Link } from "react-router-dom";
+import Navbar from "../components/navbar/Navbar";
 
 export default function Home() {
     const {shoppingCart, setShoppingCart} = useShoppingCart();
@@ -23,11 +24,7 @@ export default function Home() {
 
     return (
         <main>
-            <h1> This is my home</h1>
-            <div>
-                <button onClick={() => setAddProduct(addProduct + 1)}>asdasd</button>
-                <Link to={'/shopping-cart'} >Click here</Link>
-            </div>
+            <Navbar></Navbar>
         </main>
     )
 }

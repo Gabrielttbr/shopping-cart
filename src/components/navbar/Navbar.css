@@ -1,0 +1,28 @@
+.main-navbar {
+    margin: 0;
+    padding: 6px;
+    display: flex;
+    background-color: #0060B1;
+    border-bottom: 6px solid #FF6500;
+    justify-content: space-around;
+}
+
+.main-navbar .container {
+    display: flex;
+    width: 100%;
+}
+
+.main-navbar .icon-shopping-cart {
+    display: flex;
+    justify-content: flex-end;
+    padding: 6px;
+    margin-right: 3%;
+}
+
+.title-shopping-cart {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    padding: 5px;
+    margin-left: 3%;
+}
+
