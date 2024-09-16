@@ -1,0 +1,37 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "price": 12000,
+        "title": "NOTEBOOK G15",
+        "description": "NOTEBOOK POWER",
+        "image_url": "https://example.com/images/notebook_g15.jpg",
+        "quantity": 2
+      },
+      {
+        "id": 2,
+        "price": 8500,
+        "title": "SMARTPHONE XZ PRO",
+        "description": "SMARTPHONE WITH HIGH PERFORMANCE",
+        "image_url": "https://example.com/images/smartphone_xz_pro.jpg",
+        "quantity": 5
+      },
+      {
+        "id": 3,
+        "price": 3000,
+        "title": "WIRELESS HEADPHONES",
+        "description": "NOISE CANCELLING WIRELESS HEADPHONES",
+        "image_url": "https://example.com/images/wireless_headphones.jpg",
+        "quantity": 10
+      },
+      {
+        "id": 4,
+        "price": 15000,
+        "title": "GAMING PC",
+        "description": "HIGH-END GAMING PC",
+        "image_url": "https://example.com/images/gaming_pc.jpg",
+        "quantity": 1
+      }
+    ]
+  }
+  

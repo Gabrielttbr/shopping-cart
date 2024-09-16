@@ -1,0 +1,4 @@
+"erp:send-invoice",
+"qe:send-invoice",
+"erp:send-invoice --resend",
+"qe:resend-invoice"
