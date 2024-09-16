@@ -1,18 +1,18 @@
 import { useState, createContext } from 'react'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Home from "./pages/Home"
-import ShoppingCart from './pages/ShoppingCart'
+import ShoppingCart from './pages/shoppingCart/ShoppingCart'
 import './App.css'
 
 const defaultProduct = {
-  products: [
-    {
+  products: [ 
+  /*  {
       id: 1,
       price: 12000,
       title: 'NOTEBOOK G15',
       description: 'NOTEBOOK POWER',
       quantity: 2
-    }
+    } */
   ]
 }
 
