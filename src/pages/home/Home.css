@@ -1,0 +1,15 @@
+
+.distance-from-top{
+    margin-top: 7%;
+}
+
+.max-container {
+    margin:auto;
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}

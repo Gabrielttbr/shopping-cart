@@ -22,7 +22,7 @@ const renderProducts = (products) => {
     return products.map((product, key) => {
         return (
             <div key={key}>
-                <p>title: {product.title}</p>
+                <p>title: {String.product.title}</p>
                 <p>Price: {Number.parseFloat(product.price).toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}</p>
                 <p>Quantity: {product.quantity}</p>
             </div>
@@ -37,7 +37,7 @@ export default function ShoppingCart() {
     return (
         <div>
             <Navbar />
-            <div className="box">
+            <div className="box distance-from-top">
                 {renderProducts(shoppingCart.products)}
             </div>
             <Footer />

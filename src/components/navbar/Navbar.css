@@ -5,6 +5,9 @@
     background-color: #0060B1;
     border-bottom: 6px solid #FF6500;
     justify-content: space-around;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .main-navbar .container {

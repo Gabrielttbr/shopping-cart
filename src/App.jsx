@@ -1,6 +1,6 @@
 import { useState, createContext } from 'react'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import Home from "./pages/Home"
+import Home from "./pages/home/Home"
 import ShoppingCart from './pages/shoppingCart/ShoppingCart'
 import './App.css'
 
