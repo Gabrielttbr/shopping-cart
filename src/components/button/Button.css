@@ -7,4 +7,9 @@
     font-weight: 600;
     font-size: 25px;
     border-radius: 5%;
+
+}
+
+.main-button:hover {
+    background-color: #1b140a;
 }

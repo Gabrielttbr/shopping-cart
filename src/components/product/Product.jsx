@@ -1,8 +1,7 @@
 import Button from '../button/Button'
 import './Product.css'
 
-
-export default function Product({ title, img_url, description, price }) {
+export default function Product({ title, img_url, description, price, onClick }) {
     return (
         <div className='card-product'>
             <div className='img-card-product'>
@@ -20,9 +19,7 @@ export default function Product({ title, img_url, description, price }) {
                     content={'Adicionar ao carrinho'}
                     type={'button'}
                     fontSize={20}
-                    onClick={() => {
-                        console.log('Adicionando um prodduto')
-                    }}
+                    onClick={onClick}
                 />
             </div>
         </div>

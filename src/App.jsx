@@ -3,6 +3,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Home from "./pages/home/Home"
 import ShoppingCart from './pages/shoppingCart/ShoppingCart'
 import './App.css'
+import NotFound from './pages/notFound/NotFound'
 
 const defaultProduct = {
   products: [ 
@@ -26,6 +27,10 @@ const router = createBrowserRouter([
   {
     path: '/shopping-cart',
     element: <ShoppingCart />
+  },
+  {
+    path: '*',
+    element: <NotFound />
   }
 ])
 
