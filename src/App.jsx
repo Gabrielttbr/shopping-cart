@@ -1,5 +1,5 @@
 import { useState, createContext } from 'react'
-import { createBrowserRouter, RouterProvider, HashRouter } from 'react-router-dom'
+import { createBrowserRouter, RouterProvider, BrowserRouter, Routes, Route } from 'react-router-dom'
 import Home from "./pages/home/Home"
 import ShoppingCart from './pages/shoppingCart/ShoppingCart'
 import './App.css'
@@ -42,7 +42,13 @@ function App() {
       shoppingCart,
       setShoppingCart
     }}>
-      <HashRouter router={router} />
+      <BrowserRouter basename="/shopping-cart">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/shopping-cart" element={<ShoppingCart />} />
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+      </BrowserRouter>
     </ContextShoppingCart.Provider>
   )
 }
