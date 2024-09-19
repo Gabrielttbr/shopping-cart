@@ -8,8 +8,6 @@ export default function Navbar() {
     const [quantityShoppingCart, setQuantityShopingCart] = useState(0);
 
     useEffect(() => {
-        console.log("Navbar: ")
-        console.log(shoppingCart) 
         setQuantityShopingCart(shoppingCart.products.length)
 
     }, [shoppingCart])
