@@ -32,9 +32,9 @@ export function decrementAmountOfProduct(product, setShoppingCart, shoppingCart)
 }
 
 export function deleteProduct(product, setShoppingCart, shoppingCart) {
-    const currentProducts = shoppingCart.products.filter(item => item.id === product.id)
-
-    setShoppingCart({...currentProducts})
+    const currentProducts = shoppingCart.products.filter(item => item.id !== product.id)
+   
+    setShoppingCart({...setShoppingCart, products: currentProducts})
 }
 
 function findProduct(product, listProducts) {

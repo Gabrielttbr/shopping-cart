@@ -8,15 +8,15 @@ export default function Navbar() {
     const [quantityShoppingCart, setQuantityShopingCart] = useState(0);
 
     useEffect(() => {
-        console.log("Eu sou o Gabriel Carlos Cavalcante")
-
+        console.log("Navbar: ")
+        console.log(shoppingCart) 
         setQuantityShopingCart(shoppingCart.products.length)
 
     }, [shoppingCart])
 
     return (
         <nav className='main-navbar'>
-            <div className='container'>
+            <div className='container'> 
                 <h1 className='title-shopping-cart'><Link to='/' className='link'>Shopping cart</Link></h1>
             </div>
             <div className='container icon-shopping-cart'>
